@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+.topnav{
+	border-bottom: 1px solid lightgray;
+}
+.navarea .topnav{
+	padding: 20px 5%;
+}
+.navarea .topnav a{
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 35px;
+	font-family: "Courier New", monospace;
+}
+
+
+
+
+
+// index page //
+.banner{
+	height: 95vh;
+	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.7)),url(images/successful-man.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner .text-box{
+	padding: 150px 5%;
+	width: 60%
+}
+.banner .text-box h1{
+	font-size: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Courier New", monospace;
+	line-height: 1.5cm
+}
+.banner .text-box p{
+	color: #fff;
+	font-size: 22px;
+	padding: 28px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+// blog page //
+.container{
+
+}
+.container .row{
+	display: flex;
+	padding: 50px 5%;
+}
+.container .row .main{
+	width: 60%;
+}
+.container .row .main .card{
+	margin-bottom: 40px;
+}
+.container .row .main .card img{
+	width: 100%;
+	height: 380px;
+	object-fit: cover;
+}
+.container .row .main .card h2{
+	font-size: 25px;
+	padding: 20px 0px;
+	font-family: "Courier New", monospace;
+	text-transform: uppercase;
+}
+.container .row .main .card p{
+	font-size: 18px;
+	line-height: .7cm;
+}
+.container .row .main .card .more-details{
+	margin-top: 30px
+}
+.container .row .main .card .more-details a{
+	font-size: 17px;
+	border: 1px solid;
+	text-decoration: none;
+	padding: 6px 20px;
+	word-spacing: 2px;
+}
+.container .row .main .card .more-details a:hover{
+	background-color: #000;
+	color: #fff;
+	transition: .7s ease;
+}
+
+
+
+
+
+.container .row .side{
+	width: 40%;
+}

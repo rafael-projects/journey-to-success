@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 
@@ -18,8 +19,28 @@
 	font-size: 17px;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin-right: 35px;
+	margin-right: 40px;
 	font-family: "Courier New", monospace;
+}
+
+@media screen and (max-width: 992px) {
+	.navarea .topnav{
+		padding: 15px 3%;
+	}
+	.navarea .topnav a{
+		font-size: 1.8vh;
+		margin-right: 27.5px
+	}
+}
+
+@media screen and (max-width: 662px) {
+	.navarea .topnav{
+		padding: 12px 5%;
+	}
+	.navarea .topnav a{
+		font-size: 1.5vh;
+		margin-right: 20px
+	}
 }
 
 
@@ -29,25 +50,58 @@
 
 .banner{
 	height: 95vh;
-	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.7)), url(images/successful-man.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.8)), url(images/successful-man.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 .banner .text-box{
-	padding: 150px 5%;
-	width: 60%
+	padding: 200px 5%;
+	width: 60%;
 }
 .banner .text-box h1{
 	font-size: 45px;
 	color: #fff;
 	text-transform: uppercase;
 	font-family: "Courier New", monospace;
-	line-height: 1.5cm
+	line-height: 1.5cm;
 }
 .banner .text-box p{
 	color: #fff;
 	font-size: 22px;
-	padding: 28px 0px;
+	padding: 40px 0px;
+}
+
+@media screen and (max-width: 992px) {
+	.banner{
+		height: 100vh;
+	}
+	.banner .text-box{
+		width: 90%;
+		padding: 200px 3%;
+	}
+	.banner .text-box h1{
+		font-size: 6vh;
+	}
+	.banner .text-box p{
+		font-size: 2.75vh;
+	}
+}
+
+@media screen and (max-width: 662px) {
+	.banner .text-box{
+		width: 100%;
+		padding: 140px 5%;
+	}
+	.banner .text-box h1{
+		font-size: 5vh;
+		line-height: 1.25cm;
+	}
+	.banner .text-box p{
+		font-size: 2.3vh;
+		line-height: .75cm;
+	}
 }
 
 
@@ -110,4 +164,37 @@
 
 .container .row .side{
 	width: 40%;
+}
+
+@media screen and (max-width: 992px) {
+	.container .row{
+		padding: 50px 3%;
+	}
+	.container .row .main{
+		width: 80%;
+	}
+	.container .row .main .card img{
+		height: 250px;
+	}
+	.container .row .main .card h2{
+		font-size: 2.8vh;
+		line-height: .75cm;
+	}
+	.container .row .main .card p{
+		font-size: 2vh;
+		line-height: .6cm;
+	}
+	.container .row .main .card .more-details a{
+		font-size: 1.75vh;
+	}
+}
+
+@media screen and (max-width: 662px) {
+	.container .row{
+		padding: 50px 5%;
+		flex-direction: column;
+	}
+	.container .row .main{
+		width: 100%;
+	}
 }

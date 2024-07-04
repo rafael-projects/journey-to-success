@@ -79,7 +79,7 @@
 	}
 	.banner .text-box{
 		width: 90%;
-		padding: 200px 3%;
+		padding: 200px 5%;
 	}
 	.banner .text-box h1{
 		font-size: 6vh;
@@ -168,7 +168,7 @@
 
 @media screen and (max-width: 992px) {
 	.container .row{
-		padding: 50px 3%;
+		padding: 50px 5%;
 	}
 	.container .row .main{
 		width: 80%;
@@ -191,8 +191,8 @@
 
 @media screen and (max-width: 662px) {
 	.container .row{
-		padding: 50px 5%;
 		flex-direction: column;
+		padding: 50px 5%;
 	}
 	.container .row .main{
 		width: 100%;

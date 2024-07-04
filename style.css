@@ -208,4 +208,13 @@
 		display: block;
 		text-align: center;
 	}
+
+
+
+
+	.container .row .side{
+		width: 100%;
+	}
 }
+
+
